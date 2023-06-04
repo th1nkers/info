@@ -1,0 +1,28 @@
+.main-header {
+  position: absolute;
+  grid-area: 1 /1 /1 /1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  top: 2%;
+  left: 46%;
+}
+
+@media screen and (max-width: 1292px) {
+  .main-header {
+    top: 2%;
+    left: 58%;
+    align-items: flex-end;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .main-header {
+    position: relative;
+    top: 0;
+    left: 0;
+    align-items: center;
+  }
+}

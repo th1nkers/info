@@ -1,0 +1,29 @@
+.main-navigation__title {
+  margin-bottom: 120px;
+  align-self: flex-start;
+}
+
+.main-navigation__title img {
+  height: 35px;
+}
+
+.main-navigation__header-nav {}
+
+
+@media screen and (max-width: 1292px) {}
+
+@media screen and (max-width: 1000px) {
+  .main-navigation__title {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-navigation__header-nav {
+    display: none;
+  }
+
+  .main-navigation__title {
+    display: none;
+  }
+}

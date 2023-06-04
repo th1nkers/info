@@ -1,0 +1,47 @@
+.authentication {
+    width: 40%;
+}
+
+.auth-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 23vw;
+    text-align: center;
+}
+
+.auth-content span {
+    cursor: pointer;
+    color: #510077;
+}
+
+
+@media screen and (max-width: 1292px) {
+    .authentication {
+        width: 50%;
+    }
+
+    .auth-content {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .authentication {
+        width: 55%;
+    }
+
+    .auth-content {
+        width: 47vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .authentication {
+        width: 70%;
+    }
+
+    .auth-content {
+        width: 60vw;
+    }
+}

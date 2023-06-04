@@ -1,0 +1,9 @@
+.sub-headers{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    margin-bottom: 1rem;
+    background-color: aliceblue;
+    height: 4rem
+}
