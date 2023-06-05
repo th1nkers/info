@@ -35,7 +35,7 @@ const NavLinks = props => {
     {!auth.isLoggedIn && <li>
       <div className="signup-link">
         <p>To keep all your apply handy, make sure you make account.</p>
-        <NavLink id='nav-auth' to="/auth"> <FontAwesomeIcon icon={faSignature} /><span>{ "Login" || "Signup"}</span></NavLink>
+        <NavLink id='nav-auth' to="/auth"> <FontAwesomeIcon icon={faSignature} /> <span>{ "Login" || "Signup"}</span></NavLink>
       </div>
     </li>}
     {auth.isLoggedIn && <li>

@@ -9,6 +9,7 @@ import Users from './user/pages/Users';
 import Apply from './docs/pages/Apply';
 import Notify from './docs/pages/Notify';
 import Auth from './user/pages/Auth';
+import UserDocs from './docs/pages/UserDocs';
 
 function App() {
 
@@ -32,7 +33,7 @@ function App() {
           <Notify />
         </Route>
         <Route path="/:userId/docs" exact>
-          users docs
+          <UserDocs/>
         </Route>
       </Switch>
     );
@@ -48,7 +49,10 @@ function App() {
         <Auth />
       </Route>
       <Route path="/:userId/docs" exact>
-        users docs
+        <UserDocs/>
+      </Route>
+      <Route path="/:docId" exact>
+        details docs
       </Route>
       <Redirect to="/auth" />
     </Switch>)
