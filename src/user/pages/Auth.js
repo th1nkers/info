@@ -84,7 +84,7 @@ const Auth = () => {
 
   return (
     <Modal
-      header={isLoginMode ? <h2>Log in to</h2> : <h2>Sign up to</h2>}
+      header={isLoginMode ? "Log in to" : "Sign up to"}
       className="authentication"
       contentClass="auth-content"
       onCancel={closeHandler}
