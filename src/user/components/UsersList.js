@@ -19,7 +19,7 @@ const UsersList = props => {
           <UserItem
             key={user.id}
             id={user.id}
-            image={user.image}
+            awatar_image={user.awatar_image}
             name={user.name}
             username={user.username}
             catBio={user.catBio}

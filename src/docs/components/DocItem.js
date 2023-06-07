@@ -7,7 +7,7 @@ import Avatar from '../../shared/components/UIElements/Avatar';
 import Card from '../../shared/components/UIElements/Card';
 import Button from '../../shared/components/FormElements/Button';
 
-import './DocItem.css';
+import '../../shared/components/DocCard.css';
 
 const DocItem = props => {
   const { description } = props;

@@ -30,8 +30,8 @@ const DocsList = (props) => {
                     creatorId={user.id}
                     name={user.name}
                     username={user.username}
-                    avatar_image={user.awatar_image}
-                    catBio={user.catBio}
+                    avatarImage={user.avatarImage}
+                    catBio={user.catBio}                    
                 />
             ))}
         </ul>
