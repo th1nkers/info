@@ -1,6 +1,6 @@
 .form-control {
   margin: 1rem 0;
-  border: 1px solid black;
+  border-bottom: 1px solid rgba(48, 48, 48, 0.551);
 }
 
 .form-control label,
@@ -17,8 +17,8 @@
 .form-control textarea {
   width: 100%;
   font: inherit;
-  border: 1px solid #ccc;
   background: #f8f8f8;
+  border: 1px solid rgba(204, 204, 204, 0.532);
   padding: 0.15rem 0.25rem;
   height: 3rem;
 }

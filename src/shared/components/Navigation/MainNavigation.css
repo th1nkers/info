@@ -1,13 +1,16 @@
 .main-navigation__title {
-  margin-bottom: 120px;
-  align-self: flex-start;
+  margin-top: 4rem;
+  margin-bottom: 7rem;
 }
 
 .main-navigation__title img {
   height: 35px;
 }
 
-.main-navigation__header-nav {}
+.main-navigation__header-nav {
+  display: grid;
+  grid-template-rows: repeat(n, 1fr);
+}
 
 
 @media screen and (max-width: 1292px) {}
@@ -18,12 +21,9 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .main-navigation__header-nav {
-    display: none;
-  }
-
+/* @media screen and (max-width: 700px) {
+  
   .main-navigation__title {
     display: none;
   }
-}
+} */

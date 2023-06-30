@@ -13,7 +13,7 @@ const ModalOverlay = props => {
             <div className='modal-close' onClick={props.onCancel}><FontAwesomeIcon icon={faCircleXmark} size="xl" /> </div> 
             <header className={`modal__header ${props.headerClass}`}>
                 <h2>{props.header}</h2>
-                <img src={logo} alt="" />
+                <img src={logo} alt="infogram logo" />
             </header>
 
             <form onSubmit={props.onSubmit ? props.onSubmit : event => event.preventDefault()}>

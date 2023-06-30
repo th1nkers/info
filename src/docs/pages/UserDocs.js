@@ -4,9 +4,9 @@ import DocsList from '../components/DocsList';
 export const DUMMY_USERS = [
   {
     id: 'u1',
-    name: 'Suryansh Singh',
+    name: 'Thinkers',
     username: "thinkers",
-    awatar_image: 'https://wp.inews.co.uk/wp-content/uploads/2022/02/peaky-blinders-season-5.jpeg',
+    avatarImage: 'https://wp.inews.co.uk/wp-content/uploads/2022/02/peaky-blinders-season-5.jpeg',
     catBio: "Department of Nothing",
     applyDocs: [
       {
@@ -34,7 +34,7 @@ export const DUMMY_USERS = [
     id: 'd2',
     name: 'Gems of Likes',
     username: "gemsoflikes",
-    awatar_image: 'https://i.pinimg.com/236x/df/5c/1e/df5c1eb2bbb7aa571a396533a9aefece--poke-me-glitter-wallpaper.jpg',
+    avatarImage: 'https://i.pinimg.com/236x/df/5c/1e/df5c1eb2bbb7aa571a396533a9aefece--poke-me-glitter-wallpaper.jpg',
     catBio: "Department of Likes",
     userDocs: [],
     applyDocs: []

@@ -12,10 +12,9 @@ const MainNavigation = props => {
     <h1 className="main-navigation__title">
       <img src={logo} alt="logo" />
     </h1>
-    <div className="main-navigation__header-nav">
+    <>
       <NavLinks />
-    </div>
-    
+    </>
   </MainHeader>
 };
 

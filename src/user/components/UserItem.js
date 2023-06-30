@@ -6,7 +6,7 @@ const UserItem = props => {
   return (
       <UserCard 
       id={props.id}
-      awatar_image={props.awatar_image}
+      avatarImage={props.avatarImage}
       name={props.name}
       username={props.username}
       catBio={props.catBio}

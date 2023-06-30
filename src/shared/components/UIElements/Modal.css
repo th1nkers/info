@@ -20,6 +20,12 @@
   left: 1%;
   cursor: pointer;
   z-index: 100;
+  padding: 4px;
+}
+
+.modal-close:hover{
+  background-color: rgba(231, 228, 228, 0.744);
+  border-radius: 50%;
 }
 
 .modal__header {

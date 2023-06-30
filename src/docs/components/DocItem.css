@@ -94,6 +94,12 @@
   justify-content: space-evenly;
   align-items: center;
   color: #4a4949;
+  text-decoration: none;
+  margin: 20px 0px;
+}
+
+.feed_back li{
+  list-style: none;
 }
 
 

@@ -1,11 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHeart, faEllipsisVertical, faSignature,faFileLines, faComment, faSquareShareNodes } from '@fortawesome/free-solid-svg-icons';
+import { faEllipsisVertical, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 
 import Avatar from '../../shared/components/UIElements/Avatar';
 import Card from '../../shared/components/UIElements/Card';
-import Button from '../../shared/components/FormElements/Button';
 
 import '../../shared/components/DocCard.css';
 
@@ -20,7 +19,7 @@ const DocItem = props => {
       <Card className="userDoc-item__all_content">
         <Link to={`/@${props.username}/${props.id}`} className="userDoc-item__content">
           <div className="userDoc-item__image">
-            <Avatar image={props.avatar_image} alt={props.name} />
+            <Avatar image={props.avatarImage} alt={props.name} />
           </div>
           <div className="userDoc-item__info">
             <h2>{props.title}</h2>
@@ -43,14 +42,9 @@ const DocItem = props => {
           </p>
         </div>
 
-        <div className="feed_back">
-          <FontAwesomeIcon icon={faComment} size="xl" />
-          <FontAwesomeIcon icon={faSignature} size="xl" />
-          <FontAwesomeIcon icon={faHeart} beat size="xl" />
-          <FontAwesomeIcon icon={faSquareShareNodes} size="xl" />
-          <Button inverse>subscribe +</Button>
-          <FontAwesomeIcon icon={faFileLines} size="xl" />
-        </div>
+        <ul className="feed_back">
+          <li><FontAwesomeIcon icon={faThumbsUp} size="lg" /></li>
+        </ul>
 
       </div>
     </li>

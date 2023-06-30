@@ -24,13 +24,12 @@ const DocsList = (props) => {
                 <DocItem
                     key={doc.id}
                     id={doc.id}
-                    image={doc.imageUrl}
+                    avatarImage={user.avatarImage}
                     title={doc.title}
                     description={doc.description}
                     creatorId={user.id}
                     name={user.name}
                     username={user.username}
-                    avatarImage={user.avatarImage}
                     catBio={user.catBio}                    
                 />
             ))}
